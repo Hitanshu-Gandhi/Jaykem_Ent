@@ -1,0 +1,104 @@
+    .wrapper {
+      padding: 1em;
+      border-radius: 7px 7px 7px 7px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hehe {
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      width: 686vw;
+    }
+
+    .product-img {
+      float: left;
+    }
+
+    .product-img img {
+      border-radius: 7px 0 0 7px;
+    }
+
+    .product-info {
+      float: left;
+      height: 420px;
+      width: 327px;
+      border-radius: 0 7px 10px 7px;
+      background-color: #ffffff;
+    }
+
+    .product-text {
+      height: 300px;
+      width: 327px;
+    }
+
+    .product-text h1 {
+      margin: 0 0 0 38px;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 34px;
+      color: #474747;
+    }
+
+    .product-text h1,
+    .product-price-btn p {
+      font-family: 'Bentham', serif;
+    }
+
+    .product-text p {
+      margin: 0 0 0 2em;
+      font-family: 'Playfair Display', serif;
+      color: #c61e1e;
+      line-height: 1.7em;
+      font-size: 17px;
+      font-weight: lighter;
+      overflow: hidden;
+    }
+
+    /* Media query */
+    @media(max-width: 476px) {
+      .wrapper {
+        display: contents;
+      }
+
+      .hehe {
+        display: inline;
+      }
+
+      .product-text h1 {
+        font-size: larger;
+      }
+
+      .product-text p {
+        margin: 0 0 0 2em;
+        font-family: 'Playfair Display', serif;
+        font-size: medium;
+      }
+
+      .footer {
+        display: none;
+      }
+
+      .product-info {
+        float: left;
+        height: 303px;
+        width: 76%;
+      }
+
+      .product-img img {
+        border-radius: 7px 0 0 7px;
+        height: 20rem;
+        width: 20rem;
+      }
+
+      .product-img {
+        margin-left: 2rem;
+        margin-top: 2rem;
+      }
+
+      .product-text {
+        margin-left: 2rem;
+      }
+
+    }

@@ -1,0 +1,98 @@
+body
+{
+    background-image: url("cont.webp");
+    background-repeat: no-repeat;
+}
+
+.det
+{
+    margin-top: 2em;
+    margin-left: 6em;
+}
+
+.cc
+{
+    border-color: rgb(0, 0, 67);
+    width: 28rem; 
+    height: 30rem;  
+    box-shadow: 0 0.2em 2em rgb(34, 103, 224);
+}
+
+.mai
+{
+    padding: 1.5em;
+}
+
+.topu
+{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.add
+{
+    font-size: larger;
+}
+
+.form
+{
+    width: 30em;
+    margin-left: 50em;
+    margin-top: -29em;
+    margin-bottom: 20em;
+}
+
+.butt
+{
+    margin-top: 2em;
+    margin-left: 21em;
+}
+
+/* media Query */
+@media(max-width: 476px){
+    .form{
+        display: contents;
+        height: fit-content;
+        width: 3em;
+    }
+
+    .cc{
+        width: 21rem;
+        height: 23rem;
+        margin-left: -5rem;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .mai{
+        padding: 1rem;
+    }
+
+    .mai h5{
+        font-size: 1rem;
+    }
+
+    .mai p{
+        font-size: medium;
+    }
+
+    .mb-3{
+        width: 20rem;
+        margin: 1rem;
+    }
+
+    .butt{
+        margin-left: 6rem;
+    }
+    form{
+        margin: 0.5rem;
+        margin-top: 5rem;
+        width: 22em;
+    }
+
+    .det {
+        margin-left: 6.5rem;
+    }
+}
