@@ -262,10 +262,6 @@ img {
         margin-bottom: 12rem;
     }
 
-    .carousel-control-next-icon, .carousel-control-prev-icon{
-        display: none;
-    }
-
     .con {
         display: contents;
     }
